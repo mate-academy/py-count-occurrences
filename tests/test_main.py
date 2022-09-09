@@ -21,11 +21,4 @@ def test_count_occurrences(phrase, letter, count):
     )
 
     
-def test_removed_comment():
-import app
-with open(app.main.__file__, "r") as f:
-    file_content = f.read()
-    comment = re.compile("# write your code here")
-    assert not comment.search(
-        file_content
-    ), "You have to remove the unnecessary comment '# write your code here'"
+
