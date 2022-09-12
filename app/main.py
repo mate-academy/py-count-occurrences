@@ -14,4 +14,9 @@ def count_occurrences(phrase: str, letter: str) -> int:
     :param letter: letter to find occurrences of it
     :return: count occurrences of letter in phrase
     """
-    # write your code here
+    lower_letter = letter.lower()
+    count = 0
+    for char in phrase:
+        if lower_letter == char.lower():
+            count += 1
+    return count
