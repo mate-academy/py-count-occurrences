@@ -1,4 +1,4 @@
-[flake8]
+so[flake8]
 ignore = E203, E266
 max-line-length = 79
 max-complexity = 18
