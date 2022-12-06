@@ -1,4 +1,4 @@
-def count_occurrences(phrase: str, letter: str) -> int:
+def count_occurrences(phrase: str, letter: str) -> str:
     """
     Implement count_occurrences function:
 
@@ -19,7 +19,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
     for char in phrase:
         if char.lower() == letter.lower():
             count += 1
-    return count
+    return f"Count of letters: {count}."
 
 
 print(count_occurrences("Hello everybody!", "e"))
