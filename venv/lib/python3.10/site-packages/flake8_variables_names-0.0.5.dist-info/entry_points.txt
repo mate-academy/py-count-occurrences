@@ -1,0 +1,3 @@
+[flake8.extension]
+VNE = flake8_variables_names.checker:VariableNamesChecker
+
