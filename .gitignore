@@ -1,7 +1,11 @@
 .idea/
 .vscode/
+*.pyc
 *.iml
 .env
 .DS_Store
 venv/
 .pytest_cache/
+__pycache__/
+*.py[cod]
+
