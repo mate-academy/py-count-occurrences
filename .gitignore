@@ -1,5 +1,6 @@
 .idea/
 .vscode/
+*.pyc
 *.iml
 .env
 .DS_Store
