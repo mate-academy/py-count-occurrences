@@ -23,6 +23,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
             occurences = phrase.count(letter)
     else:
         occurences = 0
-    return (occurences)
-
-
+    return occurences
