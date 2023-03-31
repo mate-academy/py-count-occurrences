@@ -1,17 +1,23 @@
+"""Contains a function to perform a case insensitive search in a phrase."""
+
+
 def count_occurrences(phrase: str, letter: str) -> int:
+    """Perform case instensitive search of a letter in a phrase.
+
+    Args:
+    phrase - a phrase to perform a search
+    letter - a letter to be searched in the phrase
+
+    Returns:
+    The total amount of the letter occurrences in the phrase
+
+    Raises:
+    A value error if the phrase or the letter are not a string
     """
-    Implement count_occurrences function:
+    if not isinstance(phrase, str):
+        raise ValueError("Phrase type should be a string")
 
-    It takes a phrase and a letter and calculates the number of times
-    the letter appears in the phrase. The function is case insensitive.
+    if not isinstance(letter, str):
+        raise ValueError("Letter type should be a string")
 
-    count_occurrences("letter", "t") == 2
-    count_occurrences("abc", "a") == 1
-    count_occurrences("abc", "d") == 0
-    count_occurrences("ABC", "a") == 1
-
-    :param phrase: phrase to count in it
-    :param letter: letter to find occurrences of it
-    :return: count occurrences of letter in phrase
-    """
-    # write your code here
+    return phrase.lower().count(letter.lower())

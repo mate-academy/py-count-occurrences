@@ -28,3 +28,19 @@ def test_removed_comment():
     assert "# write your code here" not in lines, (
         "You have to" " remove the unnecessary comment '# write your code here'"
     )
+
+def test_list_phrase_passed():
+    with pytest.raises(ValueError, match="Phrase type should be a string"):
+        count_occurrences(["c", "o", "c", "o", "n", "u", "t"], "c")
+
+def test_boolean_phrase_passed():
+    with pytest.raises(ValueError, match="Phrase type should be a string"):
+        count_occurrences(True, "c")
+
+def test_int_letter_passed():
+    with pytest.raises(ValueError, match="Letter type should be a string"):
+        count_occurrences("0123456789", 0)
+
+def test_boolean_letter_passed():
+    with pytest.raises(ValueError, match="Letter type should be a string"):
+        count_occurrences("True", True)
