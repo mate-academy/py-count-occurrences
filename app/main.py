@@ -16,5 +16,6 @@
 #     """
 #     # write your code here
 
+
 def count_occurrences(string: str, char: str) -> int:
     return string.lower().count(char.lower())
