@@ -19,7 +19,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
 
 
 """
-If in this task we can`t use str.methods 
+If in this task we can`t use str.methods
 we can use the func below.
 """
 
