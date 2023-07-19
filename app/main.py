@@ -3,7 +3,11 @@ def count_occurrences(phrase: str, letter: str) -> int:
 
     """
     or this ???
-    git checkout -b develop
+    def count_occurrences(phrase: str, letter: str) -> int:
+        phrase_lower = phrase.lower()
+        letter_lower = letter.lower()
+
+        count_letter = phrase_lower.count(letter_lower)
 
     return count_letter
     """
