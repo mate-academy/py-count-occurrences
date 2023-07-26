@@ -20,3 +20,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
         if char.lower() == letter.lower():
             count += 1
     return count
+#new commit
