@@ -22,5 +22,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
     return count
 # new commit
 # forget about tests_v2
-# commit from Pycharm
-
+# commit from Pycharm and all checks
