@@ -21,3 +21,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
             count += 1
     return count
 #new commit
+#forget about tests
