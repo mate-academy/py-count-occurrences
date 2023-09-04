@@ -4,4 +4,3 @@ def count_occurrences(phrase: str, letter: str) -> int:
         if letter.lower() == i.lower():
             kol += 1
     return kol
-
