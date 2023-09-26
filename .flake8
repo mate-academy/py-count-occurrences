@@ -1,4 +1,4 @@
-[flake8]
+fla[flake8]
 inline-quotes = "
 ignore = E203, E266, W503, ANN002, ANN003, ANN101, ANN102, ANN401, N807, N818
 max-line-length = 79
