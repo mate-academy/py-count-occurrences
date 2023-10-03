@@ -7,4 +7,4 @@ venv/
 .pytest_cache/
 .github/
 tests/__pycache__/
-**/__pycashe__/
+**/__pycache__/
