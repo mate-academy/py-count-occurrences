@@ -5,3 +5,5 @@
 .DS_Store
 venv/
 .pytest_cache/
+.github/
+tests/__pycache__/
