@@ -7,7 +7,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
     the letter appears in the phrase. The function is case insensitive.
 
     count_occurrences("letter", "t") == 2
-    count_occurrences('abc", "a") == 1
+    count_occurrences("abc", "a") == 1
     count_occurrences("abc", "d") == 0
     count_occurrences("ABC", "a") == 1
 
