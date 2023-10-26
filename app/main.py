@@ -6,7 +6,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
     the letter appears in the phrase. The function is case insensitive.
 
     count_occurrences("letter", "t") == 2
-    count_occurrences("abc", "a") == 1
+    count_occurrences('abc", "a") == 1
     count_occurrences("abc", "d") == 0
     count_occurrences("ABC", "a") == 1
 
@@ -14,4 +14,11 @@ def count_occurrences(phrase: str, letter: str) -> int:
     :param letter: letter to find occurrences of it
     :return: count occurrences of letter in phrase
     """
-    # write your code here
+
+    count = 0
+
+    for char in phrase:
+        if char.lower() == letter.lower():
+            count += 1
+
+    return count
