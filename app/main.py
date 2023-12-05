@@ -1,6 +1,3 @@
-phrase = input("phrase: ")
-letter = input("letter:  ")
-
 def count_occurrences(phrase: str, letter: str) -> int:
     """
     Implement count_occurrences function:
@@ -23,5 +20,3 @@ def count_occurrences(phrase: str, letter: str) -> int:
         if i == letter.lower():
             counter += 1
     return counter
-
-print(count_occurrences(phrase, letter))
