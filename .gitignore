@@ -5,3 +5,6 @@
 .DS_Store
 venv/
 .pytest_cache/
+.__pycache__
+.tests/__pycache__
+.app/__pycache__
