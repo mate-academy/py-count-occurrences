@@ -8,11 +8,11 @@ def count_occurrences(phrase: str, letter: str) -> int:
     count_occurrences("letter", "t") == 2
     count_occurrences("abc", "a") == 1
     count_occurrences("abc", "d") == 0
-    count_occurrences("ABC", "a") == 1
+    count_occurrences("ABC", "a") == 1git commit -am "Solution"
 
     :param phrase: phrase to count in it
     :param letter: letter to find occurrences of it
     :return: count occurrences of letter in phrase
     """
 
-    return sum(1 for char in phrase if char.lower() == letter.lower())
+    return phrase.lower().count(letter.lower())
