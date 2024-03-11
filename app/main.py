@@ -19,7 +19,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
 
 
 # Test cases
-print(count_occurrences("letter", "t"))
-print(count_occurrences("abc", "a"))
-print(count_occurrences("abc", "d"))
-print(count_occurrences("ABC", "a"))
+count_occurrences("letter", "t")
+count_occurrences("abc", "a")
+count_occurrences("abc", "d")
+count_occurrences("ABC", "a")
