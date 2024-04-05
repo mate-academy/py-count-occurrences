@@ -18,8 +18,8 @@ from app.main import count_occurrences
 )
 def test_count_occurrences(phrase, letter, count):
     assert count_occurrences(phrase, letter) == count, (
-        f"Function 'count_occurrences' should return {count}, "
-        f"when 'phrase'='{phrase}' and 'letter'='{letter}'"
+        "Function 'count_occurrences' should return {count}, "
+        "when 'phrase'='{phrase}' and 'letter'='{letter}'"
     )
 
 
