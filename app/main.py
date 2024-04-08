@@ -1,2 +1,5 @@
-def count_occurrences(phrase: str, letter: str) -> int:
-    return phrase.lower().count(letter.lower())
+a = 12345678901111222
+b = 12345678901111222
+
+print(id(a), id(b))
+print(a is b)
