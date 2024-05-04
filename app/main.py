@@ -1,5 +1,6 @@
 """task count_occurrences"""
 
+
 def count_occurrences(phrase: str, letter: str) -> int:
     """
     func count latters in phrase
