@@ -1,4 +1,4 @@
-from collections import Counter
+
 
 
 def count_occurrences(phrase: str, letter: str) -> int:
@@ -18,4 +18,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
     :return: count occurrences of letter in phrase
     """
 
-    return Counter(phrase.lower())[letter.lower()]
+    return sum(1 for char in phrase if char.lower() == letter.lower())
