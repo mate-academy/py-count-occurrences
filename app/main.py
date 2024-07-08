@@ -21,6 +21,3 @@ def count_occurrences(phrase: str, letter: str) -> int:
         if char == letter:
             res += 1
     return res
-
-
-print(count_occurrences("Abracadabra", "A"))
