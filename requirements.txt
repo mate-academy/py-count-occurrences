@@ -4,3 +4,6 @@ flake8-quotes==3.3.1
 flake8-variables-names==0.0.5
 pep8-naming==0.13.2
 pytest==7.1.3
+
+
+.
