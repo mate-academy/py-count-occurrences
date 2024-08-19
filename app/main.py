@@ -23,8 +23,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
 phrase = input("Enter a phrase: ").lower()
 letter = input("Enter a letter: ").lower()
 
-if len(letter) != 1:
-    raise ValueError("The 'letter' parameter should be a single character.")
 
-result = count_occurrences(phrase, letter)
-print(f"The letter '{letter}' occurs {result} times in the phrase.")
