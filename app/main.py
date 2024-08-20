@@ -2,7 +2,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
 
     letter_count = 0
     for i in phrase:
-        if i == letter.lower():
+        if i == letter:
             letter_count += 1
     print(letter_count)
 
