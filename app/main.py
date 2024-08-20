@@ -1,30 +1,25 @@
-# app/main.py
 
-# Задаємо змінні різних типів даних
-integer_value = 123
-empty_list = []
-greeting_message = "Hi!"
-number_list = [1, 2]
-number_tuple = (1, 2)
-boolean_value = True
-key_value_dict = {"key": "value"}
-pi_value = 3.14
+import pytest
 
 
-sorted_variables = {
-    "mutable": [
-        empty_list,
-        number_list,
-        key_value_dict
-    ],
-    "immutable": [
-        integer_value,
-        greeting_message,
-        number_tuple,
-        boolean_value,
-        pi_value
+def count_occurrences(phrase: str, letter: str) -> int:
+    """Повертає кількість появ певної літери в рядку"""
+    return phrase.lower().count(letter.lower())
+
+
+@pytest.mark.parametrize(
+    "phrase, letter, expected_count",
+    [
+        ("hello world", "o", 2),
+        ("hello world", "x", 0),
+        ("", "a", 0),
+        ("abcd", "d", 1),
+        ("Python", "p", 1),
     ]
-}
+)
+def test_count_occurrences(phrase, letter, expected_count):
+    assert count_occurrences(phrase, letter) == expected_count
 
 
-print(sorted_variables)
+if __name__ == "__main__":
+    pytest.main()
