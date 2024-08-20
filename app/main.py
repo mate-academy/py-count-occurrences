@@ -1,6 +1,7 @@
+# main.py
 
 import pytest
-
+from typing import Tuple
 
 def count_occurrences(phrase: str, letter: str) -> int:
     """Повертає кількість появ певної літери в рядку"""
@@ -17,7 +18,11 @@ def count_occurrences(phrase: str, letter: str) -> int:
         ("Python", "p", 1),
     ]
 )
-def test_count_occurrences(phrase, letter, expected_count):
+def test_count_occurrences(
+    phrase: str,
+    letter: str,
+    expected_count: int
+) -> None:
     assert count_occurrences(phrase, letter) == expected_count
 
 
