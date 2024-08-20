@@ -12,4 +12,3 @@ if __name__ == "__main__":
 
     result = count_occurrences(phrase, letter)
     print(f"The letter '{letter}' occurs {result} times in the phrase.")
-
