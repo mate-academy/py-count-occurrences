@@ -1,15 +1,16 @@
-a = 123
-b = []
-c = "Hi!"
-d = [1, 2]
-e = (1, 2)
-f = True
-g = {"key": "value"}
-h = 3.14
+integer_value = 123
+empty_list = []
+greeting_message = "Hi!"
+number_list = [1, 2]
+number_tuple = (1, 2)
+boolean_value = True
+key_value_dict = {"key": "value"}
+pi_value = 3.14
 
 sorted_variables = {
-    "mutable": [b, d, g],
-    "immutable": [a, c, e, f, h]
+    "mutable": [empty_list, number_list, key_value_dict],
+    "immutable": [integer_value, greeting_message, number_tuple, boolean_value, pi_value]
 }
 
 print(sorted_variables)
+
