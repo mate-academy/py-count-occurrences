@@ -1,8 +1,15 @@
-def count_occurrences(phrase: str, letter: str) -> int:
-    letter_count = 0
-    phrase = phrase.lower()
-    letter = letter.lower()
-    for char in phrase:
-        if char == letter:
-            letter_count += 1
-    return letter_count
+a = 123
+b = []
+c = "Hi!"
+d = [1, 2]
+e = (1, 2)
+f = True
+g = {"key": "value"}
+h = 3.14
+
+sorted_variables = {
+    "mutable": [b, d, g],
+    "immutable": [a, c, e, f, h]
+}
+
+print(sorted_variables)
