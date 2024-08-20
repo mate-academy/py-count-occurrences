@@ -6,7 +6,8 @@ def count_occurrences(phrase: str, letter: str) -> int:
             letter_count += 1
     print(letter_count)
 
+
 phrase = input("Enter a phrase:").lower()
-letter = input("Enter a letter:")
+letter = input("Enter a letter:").lower()
 
 count_occurrences(phrase, letter)
