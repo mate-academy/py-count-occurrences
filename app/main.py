@@ -9,8 +9,13 @@ pi_value = 3.14
 
 sorted_variables = {
     "mutable": [empty_list, number_list, key_value_dict],
-    "immutable": [integer_value, greeting_message, number_tuple, boolean_value, pi_value]
+    "immutable": [
+        integer_value,
+        greeting_message,
+        number_tuple,
+        boolean_value,
+        pi_value
+    ]
 }
 
 print(sorted_variables)
-
