@@ -10,6 +10,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
     count_occurrences("abc", "d") == 0
     count_occurrences("ABC", "a") == 1
 
+    :type phrase: object
     :param phrase: phrase to count in it
     :param letter: letter to find occurrences of it
     :return: count occurrences of letter in phrase
