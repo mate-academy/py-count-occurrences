@@ -1,6 +1,3 @@
-from itertools import count
-
-
 def count_occurrences(phrase: str, letter: str) -> int:
     """
     Implement count_occurrences function:
