@@ -16,10 +16,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
     """
 
     phrase_lower = phrase.lower()
-    counter = 0
-
-    for character in phrase_lower:
-        if character == letter.lower():
-            counter += 1
+    letter_lower = letter.lower()
+    counter = str.count(phrase_lower, letter_lower)
 
     return counter
