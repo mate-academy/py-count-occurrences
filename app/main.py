@@ -18,4 +18,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
     for symbol in phrase:
         if symbol.lower() == letter.lower():
             result += 1
-    return result 
+    return result
