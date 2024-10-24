@@ -19,3 +19,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
         if symbol.lower() == letter.lower():
             result += 1
     return result
+    
