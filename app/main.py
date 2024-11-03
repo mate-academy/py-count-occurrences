@@ -17,6 +17,6 @@ marks = {
 }
 collection_of_coins = {1, 2, 25}
 
-def count_occurrences(phrase, letter):
+def count_occurrences(phrase: str, letter: str) -> int:
     """Подсчитывает количество вхождений буквы в строке, игнорируя регистр."""
     return phrase.lower().count(letter.lower())
