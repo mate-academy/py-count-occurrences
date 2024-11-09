@@ -6,7 +6,10 @@ def count_occurrences(phrase: str, letter: str) -> int:
     :param letter: The letter to count occurrences of.
     :return: The number of occurrences of the letter in the phrase.
     """
-result = count_occurrences("Hello World","o")
-print(result)  # Output: 2, as the letter "o" appears twice.
+    count = 0
+    for char in phrase:
+        if char.lower() == letter.lower():
+            count += 1
+    return count
 
 
