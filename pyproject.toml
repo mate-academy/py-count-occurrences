@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "py-count-occurrences"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+flake8 = "5.0.4"
+flake8-annotations = "2.9.1"
+flake8-quotes = "3.3.1"
+flake8-variables-names = "0.0.5"
+pep8-naming = "0.13.2"
+pytest = "~8.3"
+black = "24.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
