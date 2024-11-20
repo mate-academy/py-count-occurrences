@@ -1,4 +1,4 @@
-import inspect
+oimport inspect
 
 import pytest
 
