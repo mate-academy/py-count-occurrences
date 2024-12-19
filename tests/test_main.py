@@ -28,17 +28,3 @@ def test_removed_comment():
     assert "# write your code here" not in lines, (
         "You have to" " remove the unnecessary comment '# write your code here'"
     )
-
-
-def count_occurrences(phrase: str, letter: str, count: int) -> int:
-    return count
-
-def get_count() -> int:
-    return 42
-
-long_string = (
-    "This is a very long string that exceeds 79 characters, "
-    "so it needs to be broken up into two lines."
-)
-
-# Пустая строка в конце файла
