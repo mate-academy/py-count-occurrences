@@ -1,6 +1,4 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    # write your code here
-    pass
     """
     Count occurrences of a letter in a phrase (case insensitive).
     :param phrase: The phrase to search within.
