@@ -6,3 +6,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
     return d[letter]
     # write your code here
     
+print(count_occurrences("hello", "l"))  # 2
