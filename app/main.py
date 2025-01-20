@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 def count_occurrences(phrase: str, letter: str) -> int:
     d = defaultdict(int)
     for c in phrase:
