@@ -1,10 +1,9 @@
-from collections import defaultdict
 
 def count_occurrences(phrase: str, letter: str) -> int:
-    
-    d = defaultdict(int)
-    for c in phrase:
-        d[c.lower()] += 1
-
-    return d[letter.lower()]
-
+    dicty = dict()
+    for letty in phrase:
+        if letty.lower() not in dicty:
+            dicty[letty.lower()] = 1
+        else:
+            dicty[letty.lower()] += 1
+    return dicty[letter.lower()]
