@@ -1,3 +1,6 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    # write your code here
-    pass
+    counter = phrase.count(letter)
+    print(counter)
+
+count_occurrences("letter", "t")
+
