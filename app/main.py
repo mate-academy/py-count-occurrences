@@ -15,6 +15,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
 
     return counter
 
-
-print(count_occurrences("Hello, world!", "l"))
-print(count_occurrences("HeLlo, world!", "l"))
+    pass
