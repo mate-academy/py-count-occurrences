@@ -6,4 +6,3 @@ def count_occurrences(phrase: str, letter: str) -> int:
             counter += 1  # збільшуємо лічильник
 
     return counter  # повертаємо результат після циклу
-
