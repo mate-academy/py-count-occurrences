@@ -1,6 +1,9 @@
-app/main.py
+def count_occurrences(phrase, letter):
+    """Підраховує кількість входжень `letter` у `phrase`, незалежно від регістру."""
+    return phrase.lower().count(letter.lower())
 
-git add app/main.py
-git commit -m "Додав змінну sorted_variables"
-git push origin new-branch
+
+
+
+
 
