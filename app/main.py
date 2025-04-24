@@ -1,8 +1,6 @@
-def count_occurrences(phrase: str, letter: str) -> int:
-    counter = 0  # ініціалізація лічильника
+app/main.py
 
-    for char in phrase:  # перебір символів у рядку
-        if char.lower() == letter.lower():  # перевірка регістру
-            counter += 1  # збільшуємо лічильник
+git add app/main.py
+git commit -m "Додав змінну sorted_variables"
+git push origin new-branch
 
-    return counter  # повертаємо результат після циклу
