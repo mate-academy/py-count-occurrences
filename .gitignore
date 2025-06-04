@@ -280,3 +280,6 @@ $RECYCLE.BIN/
 
 ### Visual Studio Code ###
 .vscode/
+
+.ssh_key
+.ssh_key.pub
