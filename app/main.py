@@ -1,4 +1,5 @@
 def count_occurrences(phrase: str, letter: str) -> int:
+  master
     """
     Implement count_occurrences function:
 
@@ -18,3 +19,5 @@ def count_occurrences(phrase: str, letter: str) -> int:
     letter_lower = letter.lower()
 
     return phrase_lower.count(letter_lower)
+    pass
+master
