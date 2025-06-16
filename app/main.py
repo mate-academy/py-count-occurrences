@@ -1,9 +1,10 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    count = 0
+    counter = 0
     for char in phrase.lower():
         if char == letter.lower():
             count += 1
-    return count
+            
+    return counter
 
-print(count_occurrences("Abracadabra", "A"))
+
 
