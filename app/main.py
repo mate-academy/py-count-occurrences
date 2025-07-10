@@ -1,3 +1,2 @@
-def count_occurrences(phrase: str, letter: str) -> int:
-    # write your code here
-    pass
+def count_occurrences(phrase, letter):
+    return phrase.lower().count(letter.lower()) 
