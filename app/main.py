@@ -1,8 +1,11 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    cou = 0
+
+
+    number = 0
     for i in phrase:
         if i == letter:
-            cou += 1
-    return cou
+            number += 1
+    return number
+
 occurrence = count_occurrences("letter", "t")
 print(occurrence)
