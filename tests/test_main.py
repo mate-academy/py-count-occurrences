@@ -28,3 +28,7 @@ def test_removed_comment():
     assert "# write your code here" not in lines, (
         "You have to" " remove the unnecessary comment '# write your code here'"
     )
+
+def test_emply_letter():
+    assert count_occurrences("Hello", "") == 0
+#test for count_occurrences function
