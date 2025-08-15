@@ -1,6 +1,7 @@
+from collections import Counter
+
+
 def count_occurrences(phrase: str, letter: str) -> int:
-    counter = 0
-    for char in phrase:
-        if char.lower() == letter.lower():
-            counter += 1
-    return counter
+    char_counts = Counter(phrase.lower())
+    return char_counts.get(letter.lower(), 0)
+
