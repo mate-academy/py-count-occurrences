@@ -1,3 +1,6 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    # write your code here
-    pass
+    """Count occurrences of letter in phrase case-insensitively.
+    Parameters: phrase (str), letter (str)
+    Returns: int count
+    """
+    return phrase.lower().count(letter.lower())
