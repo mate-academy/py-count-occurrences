@@ -1,6 +1,8 @@
+from cmath import phase
+
+
 def count_occurrences(phrase: str, letter: str) -> int:
-    if len(letter) != 1:
-        return 0
-    else:
-        return phrase.lower().count(letter.lower())
-    "fix repair"
+    count = 0
+    if phrase.lower() in letter.lower() and len(letter) <= 1:
+        count += 1
+        return count
