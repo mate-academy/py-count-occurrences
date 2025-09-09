@@ -13,9 +13,6 @@ def count_occurrences(phrase: str, letter: str) -> int:
     int
         The number of times `letter` occurs in `phrase`.
     """
-    phrase_lower =phrase.lower()
+    phrase_lower = phrase.lower()
     counter = phrase_lower.count(letter.lower())
     return counter
-
-
-
