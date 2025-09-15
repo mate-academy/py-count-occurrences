@@ -2,11 +2,10 @@ def count_occurrences(phrase: str, letter: str) -> int:
     """
     Count the number of occurrences of `letter` in `phrase`.
     The function is case insensitive.
-    args:
-       phrase: str - to search
-       letter: str - to count
-    returns: int - number of times `letter` occurs in `phrase`
-    examples:           
+    :param phrase: str - to search
+    :param letter: str - to count
+    :returns: int - number of times `letter` occurs in `phrase`
+    :examples:           
          count_occurrences("Hello World", "o") -> 2
          count_occurrences("Hello World", "O") -> 2
          count_occurrences("Hello World", "l") -> 3
