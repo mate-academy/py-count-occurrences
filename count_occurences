@@ -1,0 +1,6 @@
+
+
+def count_occurences(phrase, letter) -> int:
+    count = phrase.count(letter)
+    return count
+    
