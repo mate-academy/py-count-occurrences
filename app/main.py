@@ -7,6 +7,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
     :return: The number of occurrences of the letter in the phrase.
     """
 
-    if len(letter) != 1:
-        raise ValueError("letter must be a single character")
-    return phrase.lower().count(letter.lower())
+    if letter == "":
+        return 0
+    else:
+        return phrase.casefold().count(letter.casefold())
