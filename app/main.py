@@ -5,7 +5,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
     Args:
         phrase (str): The phrase to search.
         letter (str): The target letter.
-    
+
     Returns:
         int: The number of times the letter appears in the phrase.
     """
