@@ -1,12 +1,9 @@
 def count_occurrences(phrase: str, letter: str) -> int:
     """
-    Count how many times a letter appears in a phrase.
+    Count occurrences of a letter in a phrase (case insensitive).
 
-    Args:
-        phrase (str): The phrase to search.
-        letter (str): The target letter.
-
-    Returns:
-        int: The number of times the letter appears in the phrase.
+    :param phrase: The phrase to search within.
+    :param letter: The letter to count occurrences of.
+    :return: The number of occurrences of the letter in the phrase.
     """
     return phrase.lower().count(letter.lower())
