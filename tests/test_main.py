@@ -4,7 +4,6 @@ import pytest
 
 from app.main import count_occurrences
 
-
 @pytest.mark.parametrize(
     "phrase,letter,count",
     [
