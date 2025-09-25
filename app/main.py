@@ -9,9 +9,8 @@ def count_occurrences(phrase: str, letter: str) -> int:
     Returns:
         int: The number of occurrences of the letter.
     """
-    counter = 0
-    for char in phrase:
-        if char.lower() == letter.lower():
-            counter += 1
-    return counter
+    if len(letter) != 1:
+        raise ValueError("letter must be a single character")
+    
+    return phrase.lower().count(letter.lower())
 
