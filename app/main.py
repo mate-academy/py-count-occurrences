@@ -7,7 +7,12 @@ def count_occurrences(phrase: str, letter: str) -> int:
     """
     # Validacao para garantir que `letter` parameter must be a single character.
     if len(letter) != 1:
-        raise ValueError("The `letter` parameter must be a single character.")
+        raise ValueError(
+            "The `letter` parameter must be a single character."
+        )
     #    Tanto a frase quanto a letra sao convertidas para minusculas antes da contagem.
     return
 phrase.lower().count(letter.lower())
+
+
+# O cursor deve estar nesta linha, deixando duas linhas em branco acima.
