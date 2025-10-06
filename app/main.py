@@ -1,18 +1,15 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    """
-    Підраховує кількість входжень вказаної літери у фразі, незалежно від регістру.
+    """Return how many times `letter` appears in `phrase` (case-insensitive).
 
-    Параметри:
-        phrase (str): Рядок, у якому здійснюється пошук.
-        letter (str): Літера, кількість входжень якої потрібно підрахувати.
+    Parameters:
+    - phrase: str — the string to search in
+    - letter: str — the letter to count
 
-    Повертає:
-        int: Кількість входжень літери у фразі (без урахування регістру).
+    Returns:
+    - int: number of occurrences of `letter` in `phrase` (case-insensitive)
 
-    Приклад:
-        >>> count_occurrences("Hello World", "l")
-        3
-        >>> count_occurrences("Apple", "A")
-        1
+    Examples:
+    - count_occurrences("letter", "t") -> 2
+    - count_occurrences("ABC", "a") -> 1
     """
     return phrase.lower().count(letter.lower())
