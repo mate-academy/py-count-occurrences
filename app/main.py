@@ -1,4 +1,4 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    if len(letter) != 1:
-        raise ValueError("The letter parameter must be a single character.")
+    if not letter:  # empty string or None
+        return 0
     return phrase.lower().count(letter.lower())
