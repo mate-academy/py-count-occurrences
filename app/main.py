@@ -1,12 +1,14 @@
-# app/main.py (Виправлений)
-
-def some_function() -> None:
-    print("Start")
-
-    # Змінна x перейменована на описове ім'я
-    input_value = 1
-
-    if input_value == 1:
-        # Змінна y перейменована на описове ім'я
-        result = 5  # W291 виправлено - кінцеві пробіли видалено
-        print(result)
+def count_occurrences(phrase: str, letter: str) -> int:
+    """
+    Count occurrences of a letter in a phrase (case insensitive).
+    
+    :param phrase: The phrase to search within.
+    :param letter: The letter to count occurrences of.
+    :return: The number of occurrences of the letter in the phrase.
+    """
+    # Конвертуємо обидва рядки в нижній регістр для регістронезалежного підрахунку
+    lowercase_phrase = phrase.lower()
+    lowercase_letter = letter.lower()
+    
+    # Використовуємо вбудований метод count()
+    return lowercase_phrase.count(lowercase_letter)
