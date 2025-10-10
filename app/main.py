@@ -6,7 +6,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
     :return: The number of occurrences of the letter in the phrase.
     """
 
-    # Конвертуємо обидва рядки в нижній регістр для регістронезалежного підрахунку
+    # Конвертуємо обидва рядки в нижній регістр
     lowercase_phrase = phrase.lower()
     lowercase_letter = letter.lower()
 
