@@ -1,6 +1,6 @@
 def count_occurrences(phrase: str, letter: str) -> int:
     """
-    Counts occurrences of `letter` (or substring) in `phrase`, case-insensitive.
+    Counts occurrences of `letter` in `phrase`, case-insensitive.
 
     Parameters:
         phrase: str — the string to search within
@@ -17,8 +17,8 @@ def count_occurrences(phrase: str, letter: str) -> int:
         3
 
     Note:
-        Python's str.count('') returns len(phrase) + 1. This function explicitly
-        forbids an empty `letter` and raises ValueError to avoid that surprising result.
+        Python's str.count('') returns len(phrase) + 1.
+        forbids an empty `letter`
     """
     if not letter:
         raise ValueError("letter cannot be empty")
