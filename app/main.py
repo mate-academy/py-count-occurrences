@@ -10,6 +10,6 @@ def count_occurrences(phrase: str, letter: str) -> int:
         int: The number of times the letter appears in the phrase.
     """
     if letter == "":
-        raise ValueError("letter must be non-empty")
+        return 0
 
     return phrase.lower().count(letter.lower())
