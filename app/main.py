@@ -1,12 +1,12 @@
 def count_occurrences(phrase: str, letter: str) -> int:
     """
-        Підраховує кількість символів letter зустрічається у phrase.
+        Counts the number of characters a letter occurs in a phrase.
 
-        Args:
-            phrase (str): Рядок, у якому шукаємо.
-            letter (str): Символ або підрядок для пошуку.
+            Arguments:
+            phrase (str): The string to search in.
+            letter (str): The character or substring to search for.
 
         Returns:
-            int: Кількість входжень letter у phrase (без урахування регістру).
+        int: The number of input letters in the phrase.
         """
     return phrase.lower().count(letter.lower())
