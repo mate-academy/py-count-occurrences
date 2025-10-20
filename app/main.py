@@ -1,10 +1,11 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    phrase_lower = phrase.lower()
-    letter_lower = letter.lower()
-    count = 0
+    """
+    Count occurrences of a letter in a phrase (case insensitive).
 
-    for char in phrase_lower:
-        if char == letter_lower:
-            count += 1
-
-    return count
+    :param phrase: The phrase to search within.
+    :param letter: The letter to count occurrences of.
+    :return: The number of occurrences of the letter in the phrase.
+    """
+    if len(phrase) == 0 or len(letter) == 0:
+        return 0
+    return phrase.lower().count(letter.lower())
