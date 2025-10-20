@@ -1,6 +1,6 @@
 def count_occurrences(phrase: str, letter: str) -> int:
     """
-       Counts the number of case-insensitive occurrences of a letter in a phrase.
+       Counts the number of occurrences of a letter in a phrase.
 
        Args:
            phrase (str): The string to search within.
