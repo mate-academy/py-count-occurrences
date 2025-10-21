@@ -14,7 +14,7 @@ from app.main import count_occurrences
         ("Abracadabra", "A", 5),
         ("", "a", 0),
         ("Samsung", "b", 0),
-    ],
+    ]
 )
 def test_count_occurrences(phrase, letter, count):
     assert count_occurrences(phrase, letter) == count, (
