@@ -30,7 +30,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
     :return: The number of occurrences of the letter in the phrase.
     """
 ```
-007
+001
 ## Guidelines
 
 - The function must be **case insensitive**. This means that both the phrase and the letter should be treated as if they are in the same case (upper or lower).
