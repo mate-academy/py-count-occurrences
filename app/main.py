@@ -1,3 +1,5 @@
 def count_occurrences(phrase: str, letter: str) -> int:
 
-    pass
+    fix_phrase = phrase.lower()
+    fix_letter = letter.lower()
+    return fix_phrase.count(fix_letter)
