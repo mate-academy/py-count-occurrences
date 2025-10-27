@@ -9,7 +9,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
                          f"получено: '{letter}'.")
     if letter.isspace():
         raise ValueError("Аргумент 'letter' не может быть "
-                         f"пробельным символом.")
+                         "пробельным символом.")
     if not phrase:
         raise ValueError("Аргумент 'phrase' не может быть пустой строкой.")
 
