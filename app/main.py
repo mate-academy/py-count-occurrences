@@ -1,6 +1,7 @@
 def count_occurrences(phrase: str, letter: str) -> int:
     """
-    Conta quantas vezes uma letra aparece em uma frase, ignorando maiúsculas e minúsculas.
+    Conta quantas vezes uma letra aparece em uma frase, ignorando maiúsculas e
+    minúsculas.
 
     Args:
         phrase (str): A frase onde será feita a contagem.
