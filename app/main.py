@@ -5,3 +5,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
         if char in letter.lower():
             answer += 1
     return answer
+
