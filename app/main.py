@@ -1,10 +1,9 @@
-def count_occurrences(phrase, letter):
-    # Перетворюємо весь текст у маленькі літери, 
-    # щоб "A" і "a" рахувалися як однакові
-    phrase = phrase.lower()
+def count_occurrences(phrase: str, letter: str) -> int:
+    # write your code here
+    pass
+    count = 0
+    for character in phrase:
+        if character.lower() == letter.lower():
+            count += 1
 
-    # Так само робимо з літерою, яку шукаємо
-    letter = letter.lower()
-
-    # Рахуємо, скільки разів ця літера зустрічається у тексті
-    return phrase.count(letter)
+    return count
