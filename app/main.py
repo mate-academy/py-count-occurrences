@@ -1,19 +1,16 @@
 def count_occurrences(phrase: str, letter: str) -> int:
     """
-    Рахує кількість входжень символу `letter` у рядку `phrase`, незалежно від регістру.
+    Return the number of times a letter appears in a phrase (case-insensitive).
 
-    Parameters:
-        phrase (str): Рядок, у якому потрібно виконати пошук.
-        letter (str): Символ, кількість входжень якого потрібно знайти.
+    Args:
+        phrase (str): The string where the search is performed.
+        letter (str): The character to count in the phrase.
 
     Returns:
-        int: Кількість входжень символу у рядку.
-
-    Raises:
-        ValueError: Якщо параметр `letter` не є одним символом.
+        int: The number of occurrences of the given letter in the phrase.
     """
-
+    if not isinstance(phrase, str) or not isinstance(letter, str):
+        raise TypeError("Both arguments must be strings")
     if len(letter) != 1:
-        raise ValueError("Параметр 'letter' повинен бути одним символом")
-
+        return 0
     return phrase.lower().count(letter.lower())
