@@ -1,3 +1,4 @@
+"""This function return count occurrences in phrase"""
 def count_occurrences(phrase: str, letter: str) -> int:
     if phrase == "" or letter == "":
         return 0
