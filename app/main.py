@@ -1,10 +1,10 @@
 def count_occurrences(phrase: str, letter: str) -> int:
     """
-    Zlicza wystąpienia danego znaku w podanym tekście (bez rozróżniania wielkości liter).
+    Count occurrences of a letter in a phrase (case insensitive).
 
-    :param phrase: Tekst, w którym ma być wyszukiwany znak.
-    :param letter: Znak, którego wystąpienia mają zostać policzone.
-    :return: Liczba wystąpień danego znaku w tekście.
+    :param phrase: The phrase to search within.
+    :param letter: The letter to count occurrences of.
+    :return: The number of occurrences of the letter in the phrase.
     """
     if not phrase or not letter:
         return 0
