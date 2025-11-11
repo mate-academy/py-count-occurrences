@@ -1,25 +1,25 @@
-name: Test Solution
-
 on: [pull_request, push]
 
 jobs:
-test:
-runs-on: ubuntu-latest
-steps:
-- name: Checkout code
-uses: actions/checkout@v3
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-  - name: Set up Python
-    uses: actions/setup-python@v3
-    with:
-      python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
 
-  - name: Install dependencies
-    # Assuming you have a requirements.txt file
-    run: pip install -r requirements.txt
+      - name: Install dependencies and testing tools
+        # Installing app dependencies (from requirements.txt) and the pytest framework
+        run: |
+          pip install -r requirements.txt
+          pip install pytest
 
-  - name: Run tests
-    # This command runs pytest if a 'tests' directory exists, which is standard.
-    run: pytest
+      - name: Run tests
+        # This command runs pytest, which should now be installed.
+        run: pytest
 
 
