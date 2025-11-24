@@ -32,7 +32,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
 ```
 
 ## Guidelines
-
+add-comment
 - The function must be **case insensitive**. This means that both the phrase and the letter should be treated as if they are in the same case (upper or lower).
   
 - It is **recommended** to avoid using loops to solve this task. Instead, consider utilizing Python's built-in string functions to simplify the solution.
