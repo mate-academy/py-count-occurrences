@@ -1,0 +1,3 @@
+git add nome_do_arquivo.py
+git commit -m "Implementa solução para contador de ocorrências"
+git push origin KauaVictor077-patch-1
