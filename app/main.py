@@ -1,6 +1,3 @@
-
-
-
 def count_occurrences(phrase: str, letter: str) -> int | None:
     letter.lower()
     phrase = phrase.lower()
@@ -10,5 +7,3 @@ def count_occurrences(phrase: str, letter: str) -> int | None:
             occurrences += 1
         return occurrences
     return None
-
-
