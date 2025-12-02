@@ -1,9 +1,9 @@
-import inspect
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import pytest
-
 from app.main import count_occurrences
-
 
 @pytest.mark.parametrize(
     "phrase,letter,count",
@@ -17,14 +17,9 @@ from app.main import count_occurrences
     ],
 )
 def test_count_occurrences(phrase, letter, count):
-    assert count_occurrences(phrase, letter) == count, (
-        f"Function 'count_occurrences' should return {count}, "
-        f"when 'phrase'='{phrase}' and 'letter'='{letter}'"
-    )
-
+    assert count_occurrences(phrase, letter) == count
 
 def test_removed_comment():
+    import inspect
     lines = inspect.getsource(count_occurrences)
-    assert "# write your code here" not in lines, (
-        "You have to" " remove the unnecessary comment '# write your code here'"
-    )
+    assert "# write your code here" not in lines
