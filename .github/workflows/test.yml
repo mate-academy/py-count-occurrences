@@ -13,10 +13,10 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Set Up Python 3.8
+      - name: Set Up Python 3.14.2
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8
+          python-version: 3.14.2
 
       - name: Install pytest and flake8
         run: |
