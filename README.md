@@ -1,6 +1,6 @@
 # Count Occurrences
 
--py Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start
+- Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start
 
 ## Task Description
 
@@ -14,7 +14,7 @@ The function should return the number of times the letter appears in the phrase,
 ### Examples:
 
 - `count_occurrences("letter", "t")` should return `2`
-- `count_occurrences("abc", "a")` s[main.py](app/main.py)hould return `1`
+- `count_occurrences("abc", "a")` should return `1`
 - `count_occurrences("abc", "d")` should return `0`
 - `count_occurrences("ABC", "a")` should return `1`
 
