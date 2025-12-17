@@ -3,4 +3,5 @@ def count_occurrences(phrase: str, letter: str) -> int:
     pass
 
 def newfunc():
-    pass
+    
+    return "hola"
