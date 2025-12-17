@@ -1,6 +1,5 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    # write your code here
-    pass
+    return phrase, letter
 
 def newfunc():
     print ("the function pass")
