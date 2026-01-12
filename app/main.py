@@ -23,3 +23,13 @@ marks = {
     "Sergio": 3,
 }
 collection_of_coins = {1, 2, 25}
+
+number = 123
+empty_list = []
+greeting = "Hi!"
+numbers = [1, 2]
+
+sorted_variables = {
+    "mutable": [empty_list, numbers],
+    "immutable": [number, greeting]
+}
