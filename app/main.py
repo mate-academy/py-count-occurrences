@@ -8,7 +8,7 @@ my_favourite_films = [
     "Pulp Fiction",
     "The Good, the Bad and the Ugly",
     "The Matrix",
-    ]
+]
 profile_info = ("michel", "michel@gmail.com", "12345678")
 marks = {
     "John": 4,
@@ -17,20 +17,12 @@ marks = {
 collection_of_coins = {1, 2, 25}
 
 
-a = 123
-b = []
-c = "Hi!"
-d = [1, 2]
+number = 123
+empty_list = []
+greeting = "Hi!"
+numbers = [1, 2]
 
 sorted_variables = {
-    "mutable": [b, d],
-    "immutable": [a, c]
+    "mutable": [empty_list, numbers],
+    "immutable": [number, greeting]
 }
-
-
-
-
-
-
-
-
