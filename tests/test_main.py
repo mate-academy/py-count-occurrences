@@ -1,9 +1,8 @@
 import pytest
 import inspect
-# Додайте цей рядок імпорту (це важливо!)
+
 from app.main import count_occurrences
 
-# ВИДАЛІТЬ звідси рядки 5-7 (def count_occurrences...), які видно на вашому скріншоті
 
 @pytest.mark.parametrize(
     "phrase,letter,count",
