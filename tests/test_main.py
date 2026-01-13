@@ -1,10 +1,9 @@
 import pytest
 import inspect
+# Додайте цей рядок імпорту (це важливо!)
+from app.main import count_occurrences
 
-
-def count_occurrences(phrase, letter):
-    return phrase.count(letter)
-
+# ВИДАЛІТЬ звідси рядки 5-7 (def count_occurrences...), які видно на вашому скріншоті
 
 @pytest.mark.parametrize(
     "phrase,letter,count",
@@ -23,10 +22,8 @@ def test_count_occurrences(phrase, letter, count):
         f"when 'phrase'='{phrase}' and 'letter'='{letter}'"
     )
 
-
 def test_removed_comment():
     lines = inspect.getsource(count_occurrences)
     assert "# write your code here" not in lines, (
-        "You have to remove the unnecessary comment "
-        "'# write your code here'"
+        "You have to remove the unnecessary comment"
     )
