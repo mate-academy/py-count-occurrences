@@ -13,6 +13,7 @@ def count_occurrences(phrase: str, letter: str) -> int:
     num_of_occurences = phrase_1.count(letter_1)
     return num_of_occurences
 
+
 phrase = input()
 letter = input()
 count_occurrences(phrase, letter)
