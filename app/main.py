@@ -4,3 +4,4 @@ for char in phrase:
         if char.lower() == letter.lower():
             counter += 1
 return counter
+
