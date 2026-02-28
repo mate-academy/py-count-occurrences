@@ -1,1 +1,7 @@
-echo "def count_occurrences(lst, item): return lst.count(item)" > solution.py
+def count_occurrences(phrase, letter):
+    
+    phrase = phrase.lower()
+    letter = letter.lower()
+    
+    return phrase.count(letter)
+ > solution.py
