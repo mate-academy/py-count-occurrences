@@ -1,5 +1,5 @@
 import inspect
-
+# pyright: ignore[reportMissingImports]
 import pytest
 
 from app.main import count_occurrences
