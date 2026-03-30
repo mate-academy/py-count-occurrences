@@ -1,6 +1,6 @@
 # Count Occurrences
 
-- Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start
+- Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) in the external repository before starting.
 
 ## Task Description
 
