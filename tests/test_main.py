@@ -3,7 +3,7 @@ import inspect
 import pytest
 import inspect
 
-from app import main
+from app.main import count_occurrences
 
 @pytest.mark.parametrize(
     "phrase,letter,count",
@@ -17,7 +17,7 @@ from app import main
     ],
 )
 def test_count_occurrences(phrase, letter, count):
-    assert main.count_occurrences(phrase, letter) == count, (
+    assert count_occurrences(phrase, letter) == count, (
         f"Function 'count_occurrences' should return {count}, "
         f"when 'phrase'='{phrase}' and 'letter'='{letter}'"
     )
