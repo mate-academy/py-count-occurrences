@@ -1,7 +1,6 @@
-import inspect
+"import inspect
 
 import pytest
-import inspect
 
 from app.main import count_occurrences
 
