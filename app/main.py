@@ -1,3 +1,4 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    # write your code here
-    pass
+    return phrase.count(letter)
+
+# Ось готова реалізація функції count_occurrences, яка рахує кількість входжень певної літери в рядку
