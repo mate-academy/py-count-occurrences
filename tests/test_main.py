@@ -2,7 +2,7 @@ import inspect
 
 import pytest
 
-from app.main import count_occurrences
+from app.count_occurrences import count_occurrences
 
 
 @pytest.mark.parametrize(
