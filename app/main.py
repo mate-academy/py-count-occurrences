@@ -8,13 +8,8 @@ def count_occurrences(phrase: str, letter: str) -> int:
         ("", "a", 0),
         ("Samsung", "b", 0),
     ],
-)
-def test_count_occurrences(phrase, letter, count):
-    assert count_occurrences(phrase, letter) == count, (
-        f"Function 'count_occurrences' should return {count}, "
-        f"when 'phrase'='{phrase}' and 'letter'='{letter}'"
-    )
     """
+
     phrase_lower = phrase.lower()
     letter_lower = letter.lower()
     counter = 0
