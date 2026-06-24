@@ -1,5 +1,7 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    """    "phrase,letter,count",
+    """
+        Count occurrences of a letter in a phrase (case insensitive).
+    ***    "phrase,letter,count",
      [
          ("samsung", "a", 1),
          ("samsung is gnusmas", "s", 5),
