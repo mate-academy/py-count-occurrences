@@ -20,11 +20,15 @@ def count_occurrences(phrase: str, letter: str) -> int:
      lines = inspect.getsource(count_occurrences)
      """
     """
+    Count occurrences of a letter in a phrase (case insensitive).
+    :param phrase: The phrase to search within.
+    :param letter: The letter to count occurrences of.
+    :return: The number of occurrences of the letter in the phrase.
       Count occurrences of a letter in a phrase (case insensitive).
       :param phrase: The phrase to search within.
       :param letter: The letter to count occurrences of.
       :return: The number of occurrences of the letter in the phrase.
-    """
+ """
     lower_phrase = phrase.lower()
     lower_letter = letter.lower()
     counter = 0
