@@ -1,6 +1,5 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    """
-    "phrase,letter,count",
+    """    "phrase,letter,count",
     [
         ("samsung", "a", 1),
         ("samsung is gnusmas", "s", 5),
@@ -8,7 +7,8 @@ def count_occurrences(phrase: str, letter: str) -> int:
         ("Abracadabra", "A", 5),
         ("", "a", 0),
         ("Samsung", "b", 0),
-    ]
+    ],
+    )
     """
     phrase_lower = phrase.lower()
     letter_lower = letter.lower()
