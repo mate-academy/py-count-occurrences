@@ -9,9 +9,6 @@ def count_occurrences(phrase: str, letter: str) -> int:
 
 test_count_occurrences = count_occurrences("Abracadabra", "A")
 
-print(test_count_occurrences)
-
 test_count_occurrences = count_occurrences("Samsung is gnusmas", "s")
 
-print(test_count_occurrences)
     
