@@ -1,3 +1,3 @@
 def count_occurrences(phrase: str, letter: str) -> int:
-    """Docstring test"""
+    """Docstring test second"""
     return phrase.lower().count(letter.lower())
