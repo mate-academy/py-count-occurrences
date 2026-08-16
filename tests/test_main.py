@@ -1,6 +1,6 @@
 import inspect
 
-import pytest
+import pytest  # type: ignore
 
 from app.main import count_occurrences
 
