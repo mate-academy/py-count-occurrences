@@ -1,6 +1,2 @@
 def count_occurrences(stringone, character):
-  count = 0
-  for letter in stringone:
-    if letter == character:
-      count += 1
-  return count
+  return stringone.lower().count(character.lower())
