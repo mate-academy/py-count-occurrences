@@ -10,5 +10,5 @@ def count_occurrences(phrase: str, letter: str) -> int:
         else:
             dic[i] = 1
 
-    return dic[letter]
+    return dic.get(letter, 0)
 
