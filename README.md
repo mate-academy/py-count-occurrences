@@ -37,3 +37,11 @@ def count_occurrences(phrase: str, letter: str) -> int:
   
 - It is **recommended** to avoid using loops to solve this task. Instead, consider utilizing Python's built-in string functions to simplify the solution.
 
+def count_occurrences(phrase: str, letter: str) -> int:
+    """Count occurrences of a letter in a phrase (case insensitive).
+
+    :param phrase: The phrase to search within.
+    :param letter: The letter to count occurrences of.
+    :return: The number of occurrences of the letter in the phrase.
+    """
+    return phrase.lower().count(letter.lower())
