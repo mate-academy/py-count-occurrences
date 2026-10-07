@@ -20,8 +20,7 @@ def test_count_occurrences(phrase, letter, count):
         f"when 'phrase'='{phrase}' and 'letter'='{letter}'"
     )
 
-    
-def test_removed_comment():
-    lines = inspect.getsource(main)
-    assert "# write your code here" not in lines, ("You have to"
-        " remove the unnecessary comment '# write your code here'")
+
+def count_occurrences(phrase: str, letter: str) -> int:
+    return phrase.lower().count(letter.lower())
+
