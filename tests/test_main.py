@@ -20,7 +20,7 @@ def test_count_occurrences(phrase, letter, count):
         f"when 'phrase'='{phrase}' and 'letter'='{letter}'"
     )
 
-    
+
 def count_occurrences(phrase: str, letter: str) -> int:
     return phrase.lower().count(letter.lower())
 
