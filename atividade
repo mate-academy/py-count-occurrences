@@ -1,0 +1,3 @@
+phrase = "Letter"
+print(phrase.lower())  # "letter"
+print("letter".count("t"))  # 2
