@@ -21,7 +21,8 @@ The function should return the number of times the letter appears in the phrase,
 ### Function Signature:
 
 ```python
-def count_occurrences(phrase: str, letter: str) -> int:
+def
+count_occurrences(phrase: str, letter: str) -> int:
     """
     Count occurrences of a letter in a phrase (case insensitive).
 
@@ -29,6 +30,9 @@ def count_occurrences(phrase: str, letter: str) -> int:
     :param letter: The letter to count occurrences of.
     :return: The number of occurrences of the letter in the phrase.
     """
+phrase_lower = phrase.lower()
+    letter_lower = letter.lower()
+    return phrase_lower.count(letter_lower)
 ```
 
 ## Guidelines
