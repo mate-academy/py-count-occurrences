@@ -8,3 +8,4 @@ def count_occurrences(phrase: str, letter: str) -> int:
             counter += 1
 
     return counter
+
