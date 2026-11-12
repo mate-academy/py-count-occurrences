@@ -1,6 +1,6 @@
 import inspect
 
-import pytest
+import pytest  # type: ignore[import-not-found]
 
 from app.main import count_occurrences
 
