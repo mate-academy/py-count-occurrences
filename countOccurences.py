@@ -6,12 +6,5 @@ def count_occurrences(phrase: str, letter: str) -> int:
     :param letter: The letter to count occurrences of.
     :return: The number of occurrences of the letter in the phrase.
     """
-    occurrences = 0
-    # for car in phrase:
-    #     if car.lower() == letter.lower():
-    #         occurrences += 1
-    occurrences = phrase.count(letter)
-    return occurrences
-
-cnt = count_occurrences("La semaine de priere", "a")
-print(cnt)
+    
+    return phrase.lower().count(letter.lower())
